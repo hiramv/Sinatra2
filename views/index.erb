@@ -1,0 +1,10 @@
+<h1>Blog Posts</h1>
+
+<% @blogs.each do |blog|%>
+  <p>
+	<span><a href="/<%= blog.id %>"><%= blog.title%></a></span>
+  </p>
+<% end %>
+
+
+

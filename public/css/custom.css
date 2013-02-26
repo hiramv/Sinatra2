@@ -1,0 +1,79 @@
+
+#navbar {
+ top:0;
+ right:0;
+ width:200px;
+ padding:0px 10px
+}
+
+#sidebar {
+ position:absolute;
+ top:5em;
+ right:3em;
+ width:160px;
+ padding-top: 5px;
+ padding-right: 5px;
+ background: white;
+ border-style: solid;
+ border-width: 1px;
+ padding: 5px 10px 10px 20px;
+ -moz-border-radius: 10px;
+ border-radius: 10px;
+}
+}
+
+article { 
+ position:relative;
+ top:0;
+ left:0;
+ width:850px;
+ margin-left: auto;
+ margin-right: auto;
+ width: 35em
+}
+
+a:hover {
+  color: black;
+}
+
+header.blogtitle{
+ left:110;
+ margin-left: auto;
+ margin-right: auto;
+ width: 18em;
+ color: white;
+ font: Arial
+}
+
+P.blocktext {
+    margin-left: auto;
+    margin-right: auto;
+    width: 35em
+}
+
+IMG.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+h1 {
+  margin-left: auto;
+  margin-right: auto;
+  width: 35
+}
+
+section{
+	margin-left: auto;
+    margin-right: auto;
+    width: 35em;
+	background: white;
+	border-style: solid;
+	padding: 5px 10px 10px 20px;
+	-moz-border-radius: 10px;
+ 	border-radius: 10px;
+
+}
+
+body {
+	background-image:url('../img/Grey-website-background.png');
+}
