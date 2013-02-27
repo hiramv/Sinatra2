@@ -1,0 +1,10 @@
+<h3>New Blog Post</h3>
+<form action="/posts/create" method="post">
+	<span>Title:<input type="text" name="title"></span><br>
+	<span>Blog Entry:<br><textarea rows="25" cols="50" name="body">
+	</textarea></span><br>
+	<input type="submit">
+	<%dt = DateTime.now%>
+	<input type="hidden" name="submit_time" value="<%=dt.strftime("%H:%M%p on %m/%d/%Y")%>" />
+</form>  
+

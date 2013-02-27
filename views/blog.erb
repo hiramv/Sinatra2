@@ -1,0 +1,16 @@
+<div class="content"> 
+	<% @posts.each do |post|%>
+	  <!-- Start of first post-->
+	  <article>
+	    <header>
+	      <h2><%= post.title %></h2>
+	      <h6><%= post.submit_time %></h6>
+	    </header>
+	    <h4><p class="blocktext"><%= post.body %></p></h4>
+		<h6><p>Character count: <%=post.body.length%> </p></h6>
+		<a href="">Show Comments</a>
+	   </article>
+	   <hr>
+	<!-- End of first post-->
+	<%end%>
+</div>

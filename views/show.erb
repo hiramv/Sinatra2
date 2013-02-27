@@ -1,0 +1,22 @@
+<h1><%= @post.title %></h1>
+<h5>Posted at <%= @post.submit_time %></h5>
+<br>
+<p><%= @post.body %></p>
+<h5>Character count: <%= @post.body.length %></h5>
+<br>
+<hr>
+<br>
+<p>
+  <a href="/posts/<%= @post.id %>/edit">Edit</a>
+</p>
+
+<p>
+  <a href="/blog">Back to blog</a>
+</p>
+
+<p>
+  <a href="/posts">Posts List</a>
+</p>
+
+<%dt = DateTime.now%>
+<input type="hidden" name="submit_time" value="<%=dt.strftime("%H:%M%p on %m/%d/%Y")%>" />

@@ -1,0 +1,10 @@
+<form action="/posts/<%= @post.id %>/update" method="post">
+	<input type="text" name="title" value="<%= @post.title %>"></input> 
+	<br> 
+	<textarea rows="25" cols="50" name="body"><%= @post.body %>
+	</textarea>
+	<br>
+	<input type="submit">
+	<%dt = DateTime.now%>
+	<input type="hidden" name="submitdate" value="<%=dt.strftime("%H:%M%p on %m/%d/%Y")%>" />
+</form>

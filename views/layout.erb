@@ -1,0 +1,30 @@
+<!doctype html>
+<html>
+<head>
+  <title>Blog</title>
+  <link href="../css/bootstrap.min.css" rel="stylesheet" media="screen">
+</head>
+<body>
+  <!-- Start container -->  
+  <div class="container-narrow">	
+	<div class="navbar">
+	  <div class="navbar-inner">
+	    <div class="container">
+	      <ul class="nav">
+		    <li class="active"><a href="/blog">Blog</a></li>
+		    <li><a href="/posts">View all posts</a></li>
+		    <li><a href="/posts/new">Add a post</a></li>
+	      </ul>
+	    </div>
+	  </div>
+    </div>
+  
+  <hr>
+
+  <%= yield %>
+
+  </div>
+  <!-- End container -->
+
+</body>
+</html>
